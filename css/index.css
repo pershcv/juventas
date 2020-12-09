@@ -108,7 +108,7 @@
     margin: 0 auto;
 }
 
-.block-title{
+.block-reserv{
     background-image: url(/img/img1.jpeg);
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@
     margin: -60px 0 0 0;
 }
 
-.title{
+.textreserv{
      font-size: 60px;
      font-weight: 600;
      color: #ffffff; 

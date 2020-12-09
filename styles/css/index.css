@@ -1,37 +1,47 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+.header-block{
     width: 100%;
     background-color: #fafafa;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
 }
+
 .logo{
     width: 236px;
     height: auto;
     position: relative;
-    left: 175px;
-    
+    left: 175px; 
 }
+
 .container{
    display: flex;
-   margin: 0 auto;
+   margin: 0 0 0 0;
+   padding-top: 20px;
+   padding-bottom: 20px;
    position: relative;
    left: 192px;
-
 }
-.contact{
 
-}
 .tel{
     position: relative;
-    top: 40px;
-    left: 470px;
+    top: 29px;
+    left: 468px;
+    font-family:'PT Sans Caption', sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: #74675a;
 }
+
 .mail{
     position: relative;
-    top: 23px;
+    top: -3px;
     left: 610px;
+    font-family:'PT Sans Caption', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #74675a;
 }
+
 .facebook{
     width: 24px;
     height: 24px;
@@ -39,6 +49,7 @@ header{
     top: 38px;
     left: 630px;
 }
+
 .instagram{
     width: 24px;
     height: 24px;
@@ -46,6 +57,7 @@ header{
     top: 38px;
     left: 650px;
 }
+
 .youtube{
     width: 24px;
     height: 24px;
@@ -53,6 +65,7 @@ header{
     top: 38px;
     left: 670px;
 }
+
 .button-contact-us{
     width: 191px;
     height: 38px;
@@ -62,25 +75,76 @@ header{
     top: 30px;
     left: 690px;
 }
+
 .conection{
+    font-size: 18px;
+    font-weight: 500;
     position: relative;
-    top: 10px;
-    text-decoration: none;
+    top: 8px;
     display: flex;
     justify-content: center;
-    color: white;   
+    color: white; 
+    text-decoration: none;  
 }
+
 .menu{
     width: 100%;
     height: 42px;
-    padding-top: 15px;
-    padding-bottom: 15px;
     background-color: #CEE39A;
-/*     
-    text-align: center; */
+    text-align: center;
 }
-.menu-link{
-    margin: 0 42px 0 0;
-    display: flex;
+
+.menu a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #74675a;
+    margin: 0 36px 0 0;
+}
+
+.menu-block{
+    display: block;
     position: relative;
-    /* top: 140px; */
+    top: 10px;
+    margin: 0 auto;
+}
+
+.block-title{
+    background-image: url(/img/img1.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 670px;
+    margin: -60px 0 0 0;
+}
+
+.title{
+     font-size: 60px;
+     font-weight: 600;
+     color: #ffffff; 
+     position: relative;
+     top: 251px;
+     left: 510px;
+}
+
+.button-reservation{
+    width: 225px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #A5C752;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    top: 256px;
+    left: 828px;
+}
+
+.reserv{
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    top: 14px;
+    display: flex;
+    justify-content: center;
+    color: white; 
+    text-decoration: none;  
+}

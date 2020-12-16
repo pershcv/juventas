@@ -1,1 +1,16 @@
+@font-face{
+    font-family: 'Titillium Web bold';
+    src: url(../css/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Titillium Web';
+    src: url(../css/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+    font-family: 'Merienda';
+    src: url(../css/fonts/Merienda/Merienda-Bold.ttf);
+    src: url(../css/fonts/Merienda/Merienda-Regular.ttf);
+}
+
 

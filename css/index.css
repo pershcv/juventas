@@ -1,152 +1,404 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=PT+Sans+Caption:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Caption:wght@400;700&display=swap');
-@import url(../css/reset.css);
-.header-block{
+@import url(../css/fonts.css);
+
+body{
     width: 100%;
-    height: 100%;
+    margin: auto;
     background-color: #fafafa;
 }
 
-.logo{
-    width: 236px;
-    height: auto;
-    position: relative;
-    left: 175px; 
+.top{
+    max-width: 1170px;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+}
+ 
+.top_contact{
+    display: flex;
+    margin: 0 0 0 296px;
 }
 
-.container{
+.top_contact p{
+    margin: 0 19px 0 0;
+}
+
+.top_logo{
+   width: 236px;
+   height: 100px; 
    display: flex;
-   margin: 0 0 0 0;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   position: relative;
-   left: 192px;
+   flex-wrap: wrap;
+   margin-right: auto;
+
 }
 
-.tel{
-    position: relative;
-    top: 42px;
-    left: 468px;
-    font-family:'PT Sans Caption', sans-serif;
+.top_tel{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Titillium Web bold', sans-serif;
     font-size: 14px;
-    font-weight: 550;
     color: #74675a;
 }
 
-.mail{
-    position: relative;
-    top: 28px;
-    left: 610px;
-    font-family:'PT Sans Caption', sans-serif;
+.top_mail{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Titillium Web', sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;  
     color: #74675a;
 }
 
-.facebook{
-    width: 24px;
-    height: 24px;
-    position: relative;
-    top: 38px;
-    left: 630px;
+.top_icon img{
+    margin: 3px 20px 0 0;
+    color:   #74675a;
+   
+} 
+
+.top_icon a{
+    text-decoration: none;
 }
 
-.instagram{
+.top_facebook{
     width: 24px;
     height: 24px;
-    position: relative;
-    top: 38px;
-    left: 650px;
+    
 }
 
-.youtube{
+.top_instagram{
     width: 24px;
     height: 24px;
-    position: relative;
-    top: 38px;
-    left: 670px;
 }
 
-.button-contact-us{
+.top_youtube{
+    width: 24px;
+    height: 24px;
+}
+
+.top_btn_contact{
     width: 191px;
-    height: 38px;
+    height: 40px;
+    display: inline-block;
+    margin-left: auto;
     border-radius: 20px;
     background-color: #A5C752;
-    position: relative;
-    top: 30px;
-    left: 690px;
+    cursor: pointer;
+    transition: 0.40s;
 }
 
-.conection{
-    font-size: 18px;
-    font-weight: 500;
+.top_btn_contact:hover{
+    background-color: #74675a;
+    transition: 0.40s;
+}
+
+.top_conection{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
     position: relative;
-    top: 8px;
+    top: 7px;
     display: flex;
     justify-content: center;
     color: white; 
-    text-decoration: none;  
+    text-decoration: none; 
+    letter-spacing: 1px; 
 }
 
+@media (max-width: 1200px){ 
+    
+    .top_contact {
+        display: flex;
+        margin: 0px 0 0 219px;
+    }
+
+    .top_button_contact{
+        margin: 0 25px 0 0;
+    }
+}    
+
+@media (max-width: 1119px){ 
+    
+    .top_contact {
+        display: flex;
+        margin: -59px 0 0 322px;
+    }
+
+    .top_icon {
+        margin: 0 20px 56px 0;
+    }
+
+    .top_button_contact{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -52px;
+        margin-left: 875px;
+    }
+    .top_conection{
+        display: flex;
+        position: relative;
+         margin: 0 0 0 24px;
+    }
+}    
+
+@media (max-width: 1024px){
+    .top_contact {
+        display: flex;
+        margin: -59px 0 0 208px;
+    }
+
+    .top_icon {
+        margin: 0 20px 56px 0;
+    }
+
+    .top_button_contact{
+        margin-top: -52px;
+        margin-left: 778px;
+    }
+
+    .top_conection{
+        position: relative;
+        margin: 0 0 0 24px;
+    }   
+}
+
+@media (max-width: 992px){
+     
+    .top_contact {
+        display: flex;
+        margin: -59px 0 0 208px;
+    }
+
+    .top_icon {
+        margin: 0 20px 56px 0;
+    }
+
+    .top_button_contact{
+        margin-top: -52px;
+        margin-left: auto;
+        
+    }
+    .top_conection{
+        position: relative;
+        margin: 0 0 0 24px;
+    }   
+} 
+
 .menu{
-    width: 100%;
     height: 42px;
+    display: flex;
     background-color: #CEE39A;
-    text-align: center;
-    margin: -2px 0 0 0;
+    justify-content: center;
+    position: relative;
 }
 
 .menu a{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
     color: #74675a;
-    margin: 0 36px 0 0;
+    margin: 0 40px 0 0;
+    position: relative;
+    top: 9px;
+    left: 29px;
 }
 
-.menu-block{
-    display: block;
+.menu_line{
+    max-width: 1200px;
+    padding-top: 9px;
+    margin: 0 0 0 34px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_title{
+    max-width: 2560px;
+    min-height: 677px;
+    background: linear-gradient( hsla(28, 16%, 20%, 0.7), hsla(27, 15%, 24%, 0.8)), url('../img/backfon.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-top: -56px;
+    margin-bottom: -40px;
+}
+
+.text_title_block{
+    max-width: 1170px;
     position: relative;
-    top: 13px;
+    top: 254px;
     margin: 0 auto;
 }
 
-.block-reserv{
-    background-image: url(../img/backfon.jpeg);
-    background-size: cover;
-    background-position: center;
-    min-height: 670px;
-    margin: 0 0 0 0;
+.text_title{
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #ffffff; 
+    text-align: center;
+}
+.btn_block{
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    top: 258px;
+    cursor: pointer;
+    transition: 0.40s;
 }
 
-.textreserv{
-     font-size: 60px;
-     font-weight: 600;
-     color: #ffffff; 
-     position: relative;
-     top: 251px;
-     left: 510px;
-}
-
-.button-reservation{
+.btn_reservation{
     width: 225px;
     height: 50px;
-    border-radius: 30px;
+    border-radius:40px;
     background-color: #A5C752;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    position: relative;
-    top: 313px;
-    left: 828px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.40s;
 }
 
-.reserv{
-    font-size: 19px;
+.btn_reservation:hover{
+    background-color: #74675a;
+    transition: 0.40s;
+}
+
+.reserve{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
     font-weight: 500;
     position: relative;
-    top: 14px;
+    top: 12px;
     display: flex;
     justify-content: center;
     color: white; 
     text-decoration: none;  
+    letter-spacing: 1px;
+}
+
+.about_us{
+    max-width: 1170px;
+    height: 540px;
+    margin: 0 0 0 367px;
+    padding: 0 0 0 0;
+}
+.about_text{
+    max-width: 1170px;
+    justify-content: center; 
+}
+
+.about_juv{
+    font-family:'Merienda', cundefined; 
+    color: #A5C752;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    padding-top: 62px;
+}
+
+.about_description{
+    max-width: 1170px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    text-align: center;
+}
+
+.about_description p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ab_text1{
+    margin: 0 0 -16px 0;
+}
+
+.ab_text3{
+    margin: -42px 268px 0px 0px;
+}
+
+.ab_text4{
+    margin: -25px -58px 0 0;
+}
+
+.ab_text5{
+    margin: 0 0 0 -205px;
+}
+
+.ab_text6{
+    margin:  0 0 0 -223px;
+}
+
+.ab_text7{
+    margin: -26px 0 0 -104px;
+}
+
+.ab_text8{
+    margin:  26px 0 0 0;
+}  
+
+.service{
+    max-width: 2560px;
+    min-height: 805px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.3), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background-position: center;
+    margin: 0;
+    padding-top: 70px;
+}
+
+.service_text{
+    font-family:'Merienda', cundefined; 
+    color: #A5C752;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+  
+} 
+
+.service_block{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.service_block img{
+    width: 270px;
+    height: 179px;
+    border-radius: 10px;
+}
+
+.service_block_1{
+    margin: 0 29px 0 0;
+}
+
+.service_block_2{
+    margin: 0 29px 0 0;
+}
+
+.service_block_1 p{
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Titillium Web',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #74675a;
+    text-align: center;
+}
+
+.service_block_2 p{
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #74675a;
+    text-align: center;
 }

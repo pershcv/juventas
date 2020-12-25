@@ -1,4 +1,5 @@
 @import url(../css/fonts.css);
+@import url(../css/reset.css);
 
 body{
     width: 100%;
@@ -83,7 +84,7 @@ body{
     display: inline-block;
     margin-left: auto;
     border-radius: 20px;
-    background-color: #A5C752;
+    background-color: #a5c752;
     cursor: pointer;
     transition: 0.40s;
 }
@@ -97,7 +98,7 @@ body{
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     position: relative;
-    top: 7px;
+    top: 11px;
     display: flex;
     justify-content: center;
     color: white; 
@@ -105,84 +106,7 @@ body{
     letter-spacing: 1px; 
 }
 
-@media (max-width: 1200px){ 
-    
-    .top_contact {
-        display: flex;
-        margin: 0px 0 0 219px;
-    }
-
-    .top_button_contact{
-        margin: 0 25px 0 0;
-    }
-}    
-
-@media (max-width: 1119px){ 
-    
-    .top_contact {
-        display: flex;
-        margin: -59px 0 0 322px;
-    }
-
-    .top_icon {
-        margin: 0 20px 56px 0;
-    }
-
-    .top_button_contact{
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: -52px;
-        margin-left: 875px;
-    }
-    .top_conection{
-        display: flex;
-        position: relative;
-         margin: 0 0 0 24px;
-    }
-}    
-
-@media (max-width: 1024px){
-    .top_contact {
-        display: flex;
-        margin: -59px 0 0 208px;
-    }
-
-    .top_icon {
-        margin: 0 20px 56px 0;
-    }
-
-    .top_button_contact{
-        margin-top: -52px;
-        margin-left: 778px;
-    }
-
-    .top_conection{
-        position: relative;
-        margin: 0 0 0 24px;
-    }   
-}
-
-@media (max-width: 992px){
-     
-    .top_contact {
-        display: flex;
-        margin: -59px 0 0 208px;
-    }
-
-    .top_icon {
-        margin: 0 20px 56px 0;
-    }
-
-    .top_button_contact{
-        margin-top: -52px;
-        margin-left: auto;
-        
-    }
-    .top_conection{
-        position: relative;
-        margin: 0 0 0 24px;
-    }   
-} 
+  
 
 .menu{
     height: 42px;
@@ -198,7 +122,7 @@ body{
     color: #74675a;
     margin: 0 40px 0 0;
     position: relative;
-    top: 9px;
+    top: 13px;
     left: 29px;
 }
 
@@ -260,12 +184,14 @@ body{
     transition: 0.40s;
 }
 
+
+
 .reserve{
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     font-weight: 500;
     position: relative;
-    top: 12px;
+    top: 17px;
     display: flex;
     justify-content: center;
     color: white; 
@@ -273,12 +199,22 @@ body{
     letter-spacing: 1px;
 }
 
+
 .about_us{
     max-width: 1170px;
     height: 540px;
-    margin: 0 0 0 367px;
+    margin: 40px 0 0 367px;
     padding: 0 0 0 0;
+    background-color: #fafafa;
 }
+
+.flower{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 85px;
+}
+
 .about_text{
     max-width: 1170px;
     justify-content: center; 
@@ -291,7 +227,8 @@ body{
     font-weight: 700;
     text-align: center;
     letter-spacing: .042em;
-    padding-top: 62px;
+    margin: auto;
+    /* padding-top: 10px; */
 }
 
 .about_description{
@@ -344,11 +281,19 @@ body{
 .service{
     max-width: 2560px;
     min-height: 805px;
-    background: linear-gradient( hsla(0, 0%, 100%, 0.3), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background: linear-gradient( hsla(0, 0%, 100%, 0.40), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
     background-position: center;
     margin: 0;
-    padding-top: 70px;
+    padding-top: 85px;
 }
+
+.flower_serice{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* padding-top: 85px; */
+}
+
 
 .service_text{
     font-family:'Merienda', cundefined; 
@@ -357,6 +302,7 @@ body{
     font-weight: 700;
     text-align: center;
     letter-spacing: .042em;
+    margin: 10px 0 54px 0;
   
 } 
 
@@ -364,7 +310,7 @@ body{
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin-left: 367px;
 }
 
 .service_block img{
@@ -401,4 +347,97 @@ body{
     letter-spacing: 0;
     color: #74675a;
     text-align: center;
+}
+
+.special{
+    max-width: 1170px;
+    height: 540px;
+    /* background-color: #A5C752; */
+    margin: auto;
+    padding-top: 85px;
+    background-color: #fafafa;
+}
+
+.flower_special{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.special_text{
+    font-family: 'Merienda', cundefined;
+    color: #A5C752;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 10px 0 54px 0;
+}
+
+.slider{
+    display: flex;
+    
+}
+
+.slider img{
+    width: 555px;
+    height: 447;
+    border-radius: 10px;
+}
+
+.special_name{
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Merienda', cundefined;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing:.042em;
+    color: #74675a;
+}
+
+.special_info{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    /* text-align: center; */
+}
+
+.special_uah{
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing:.042em;
+    color: #74675a;
+}
+
+.btn_order{
+    width: 125px;
+    height: 40px;
+    border-radius:40px;
+    background-color: #A5C752;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.btn_order:hover{
+    background-color: #74675a;
+    transition: 0.40s;
+}
+
+.order{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+    color: white; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
 }

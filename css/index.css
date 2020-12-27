@@ -106,8 +106,6 @@ body{
     letter-spacing: 1px; 
 }
 
-  
-
 .menu{
     height: 42px;
     display: flex;
@@ -158,6 +156,7 @@ body{
     color: #ffffff; 
     text-align: center;
 }
+
 .btn_block{
     max-width: 1170px;
     display: flex;
@@ -184,8 +183,6 @@ body{
     transition: 0.40s;
 }
 
-
-
 .reserve{
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
@@ -198,7 +195,6 @@ body{
     text-decoration: none;  
     letter-spacing: 1px;
 }
-
 
 .about_us{
     max-width: 1170px;
@@ -228,7 +224,6 @@ body{
     text-align: center;
     letter-spacing: .042em;
     margin: auto;
-    /* padding-top: 10px; */
 }
 
 .about_description{
@@ -291,9 +286,7 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
-    /* padding-top: 85px; */
 }
-
 
 .service_text{
     font-family:'Merienda', cundefined; 
@@ -303,7 +296,6 @@ body{
     text-align: center;
     letter-spacing: .042em;
     margin: 10px 0 54px 0;
-  
 } 
 
 .service_block{
@@ -352,7 +344,6 @@ body{
 .special{
     max-width: 1170px;
     height: 540px;
-    /* background-color: #A5C752; */
     margin: auto;
     padding-top: 85px;
     background-color: #fafafa;
@@ -398,7 +389,6 @@ body{
     font-style: normal;
     letter-spacing: .05em;
     color: #74675a;
-    /* text-align: center; */
 }
 
 .special_uah{
@@ -433,6 +423,157 @@ body{
     display: flex;
     justify-content: center;
     color: white; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+.price{
+    max-width: 2560px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.40), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background-position: center;
+    margin: 0;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    position: relative;
+    top: 495px;
+}
+
+.price_block{
+    width: 1170px;
+    display: flex;
+    margin: auto;
+}
+
+.price_list{
+    width: 270px;
+    height: 412px;
+    border-radius: 20px;
+    background-color: #A5C752; 
+    margin: 30px 25px 0 0; 
+}
+
+.flower_price{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.price_text{
+    font-family: 'Merienda', cundefined;
+    color: #74675a;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 10px 0 54px 0;
+}
+
+.p_name{
+    font-family: 'Merienda', cundefined;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 35px 0 39px 0;
+}
+
+.p_logo{
+    width: 30px;
+    position: relative;
+    top: 33px;
+    left: 120px;
+}
+
+.p_uah{
+    font-family: 'Merienda', cundefined;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 10px 0 54px 0;
+    position: relative;
+    top: 58px;
+}
+
+.btn_price{
+    width: 100px;
+    height: 40px;
+    border-radius:40px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.40s;
+    margin: auto;
+    position: relative;
+    top: 44px;
+}
+
+.btn_price:hover{
+    background-color: rgb(195, 209, 158);
+    transition: 0.40s;
+}
+
+.btn_name_price{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+    color: #74675a; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+.share{
+    max-width: 2560px;
+    min-height: 397px;
+    background: linear-gradient( hsla(78, 49%, 52%, 0.7), hsla(78, 52%, 46%, 0.8)), url('../img/share.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+    position: relative;
+    top: 482px;
+}
+
+.share_text{
+    font-family: 'Merienda', cundefined;
+    color:#74675a;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 115px;
+}
+
+.btn_share{
+    width: 180px;
+    height: 40px;
+    border-radius:40px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.40s;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
+.btn_share:hover{
+    background-color: rgb(195, 209, 158);
+    transition: 0.40s;
+}
+
+.button_sahre{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+    color: #74675a; 
     text-decoration: none; 
     letter-spacing: 1px; 
 }

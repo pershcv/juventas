@@ -580,10 +580,10 @@ body{
 
 .reviews{
     width: 1170px;
+    height: 485px;
     position: relative;
     top: 567px;
     margin: auto;
-    
 }
 
 .client_slider{
@@ -641,4 +641,341 @@ body{
     color: #74675a;
     text-align: center;
     margin-top: 70px;
+}
+
+.instagram{
+    max-width: 2560px;
+    min-height: 805px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.40), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background-position: center;
+    margin: auto;
+    padding-top: 85px;
+    position: relative;
+    top: 658px;
+}
+
+.insta_block{
+     width: 1170px;
+     margin: auto;
+}
+
+.flower_insta{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.insta_text{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 11px;
+}
+
+.insta_block{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.insta_block img{
+    width: 370px;
+    height: 233px;
+    border-radius: 10px;
+    margin: 65px 30px 0 0;
+}
+
+.iblock{
+    margin-top: -35px;
+}
+
+.restoration{
+    max-width: 1920px;
+    min-height: 1px;
+    background: url('../img/background-rest.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -56px;
+    margin-bottom: -40px;
+    position: relative;
+    top: 701px;
+}
+
+.rest_fon{
+    max-width: 1902px;
+    height: 341px;
+    background: linear-gradient( hsla(28, 16%, 60%, 0.5), hsla(27, 15%, 24%, 0.6));
+}
+
+.rest_content{
+    width: 1170px;
+    height: 341px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.restoration_text{
+    font-family: 'Merienda', cundefined;
+    color:#fff;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 11px;
+}
+
+.res_sub{
+    width: 368px;
+    height: 40px;
+    border-radius:40px;
+    border-style: none;
+    background-color: #A5C752;
+    cursor: pointer;
+    transition: 0.40s;
+    position: relative;
+    top: 35px ;
+    right: 0px;
+}
+
+.res_sub:hover{
+    background-color: #74675a;
+    transition: 0.40s;
+}
+
+.phone_text{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    position: relative;
+    top: -25px;
+    left: 371px;
+}
+
+.res_number{
+    width: 368px;
+    height: 40px;
+    border-radius:40px;
+    background-color: #fff;
+    cursor: pointer;
+    border-style: none;
+    position: relative;
+    top: -25px;
+    left: 371px;
+}
+
+
+.contact_us{
+    max-width: 2560px;
+    min-height: 805px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.40), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background-position: center;
+    margin: auto;
+    padding-top: 85px;
+    position: relative;
+    top: 741px;
+}
+
+.contact_content{
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+}
+
+.contact_block{
+    width: 570px;
+    height: 570px;
+    background-color:  #fafafa;
+    border-radius: 40px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    display: flex; 
+}
+
+.feedback{
+    width: 370px;
+    height: 40px;
+    background-color: rgba(116, 103, 90, 0.10);
+    --w-get-input-background-color: rgba(116, 103, 90, 0.10);
+    border-style: none;
+    border-radius: 40px;
+    margin: 24px 0 0 0;
+    padding: 0;
+}
+
+.message_feedback{
+    width: 370px;
+    height: 150px;
+    background-color: rgba(116, 103, 90, 0.10);
+    --w-get-input-background-color: rgba(116, 103, 90, 0.10);
+    border-style: none;
+    border-radius: 20px;
+    margin: 24px 0 0 0;
+}
+
+.bttn_contact{
+    width: 370px;
+    height: 40px;
+    border-radius:40px;
+    border-style: none;
+    background-color: #A5C752;
+    cursor: pointer;
+    transition: 0.40s;
+    margin: 56px 0 0 0;
+}
+
+.feedback_block{
+  margin-top: 52px;
+  margin-left: 100px;
+}
+
+.contact_text{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.flower_contact{
+    margin: 0 0 -25px 0;
+}
+
+.ctext_info{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+}
+
+.ctadress{
+    display: flex;
+}
+
+.adress{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.adress_street{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    margin: 27px 0px 25px 61px;
+}
+
+.contact_time{
+    display: flex;
+}
+
+.time{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.timetable{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    margin: 27px 0px 25px 100px;
+}
+
+.contact_namber_phone{
+    display: flex;
+}
+
+.contact_n_p{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.contact_n{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    margin: 27px 0px 25px 44px;
+}
+
+.fotter_end{
+    width: 1903px;
+    height: 280px;
+    position: relative;
+    top: 676px;
+    background-color: #74675a;
+}
+
+.block_footer_end{
+    width: 1170px;
+    height: 130px;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.block_footer_icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.ft_juventas{
+    font-family: 'Merienda', cundefined;
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.ft_adress{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #ffffff;
+}
+
+.block_footer_end a{
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+   
 }

@@ -577,3 +577,68 @@ body{
     text-decoration: none; 
     letter-spacing: 1px; 
 }
+
+.reviews{
+    width: 1170px;
+    position: relative;
+    top: 567px;
+    margin: auto;
+    
+}
+
+.client_slider{
+    width: 1170px;
+    position: relative;
+    top: 65px;
+}
+
+.reviews_text{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 11px;
+}
+
+.reviews_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.flower_reviews{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.name_client{
+    font-family: 'Merienda', cundefined;
+    color:#74675a;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 35px;
+}
+
+.clients_text{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    text-align: center;
+    margin-top: 70px;
+}
